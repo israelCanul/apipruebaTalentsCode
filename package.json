@@ -1,0 +1,20 @@
+{
+  "name": "apidispensadores",
+  "version": "1.0.0",
+  "description": "api para el servicio de entrega de informacion en landing dispensadores",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IICC",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "googleapis": "^39.2.0",
+    "node-fetch": "^2.6.7",
+    "nodemailer": "^6.7.2"
+  }
+}
