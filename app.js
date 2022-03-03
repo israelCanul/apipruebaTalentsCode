@@ -5,7 +5,7 @@ const { google } = require("googleapis");
 const fs = require("fs");
 const readline = require("readline");
 const app = express();
-const port = 3200;
+const port = process.env.PORT || 3200;
 app.use(cors());
 
 app.use(express.json());
